@@ -1,5 +1,6 @@
-#### 1. Dataset Overview
+### 1. Dataset Overview
 The dataset contains 16,534 entries and 11 columns related to salary data.
+
 **target value**: salary_in_usd
 1. work_year: The year of the data point.
 2. experience_level: The level of experience (e.g., SE for Senior, MI for Mid-level).
@@ -12,3 +13,14 @@ The dataset contains 16,534 entries and 11 columns related to salary data.
 9. remote_ratio: The ratio of remote work (0, 50, 100).
 10. company_location: The location of the company.
 11. company_size: The size of the company (e.g., S for Small, M for Medium, L for Large).
+
+### 2. Steps for Analysis:
+- Data Struture
+- Descriptive Statistics
+- Exploratory Data Analysis (EDA)
+- Compare One hot encoding and Ordinal Encoding on categorical variable
+- Feature selection on each model(Linear Regression and Random Forest)
+- Hyperparameter Tunning
+- Cross-validation
+- Important feature from RF
+- Interpretation
